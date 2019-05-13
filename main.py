@@ -87,7 +87,7 @@ def Mutation(crossResults,chromosomeLength):
     listString2[mutationPoint] = '1'
   
  for i in range(chromosomeLength):
-  
+  #checks for 1 in the chromosome length is specified so it matches indicated length
   if '1' in listString1[index]:
     
     fitcount1 += 1
@@ -95,7 +95,7 @@ def Mutation(crossResults,chromosomeLength):
   else:
     index += 1
  
-
+#checks again for second string
   if '1' in listString2[index2]:
     
     fitcount2 += 1
